@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		.column {
+ 		 float: left;
+  		width: 25%;
+ 		 padding: 20px;
+			}
+
+
+		.row:after {
+  		content: "";
+  		display: table;
+ 		 clear: both;
+		
+			}
+
+  		.column {
+    	width: 50%;
+  		}
+		}
+
+
+		@media screen and (max-width: 600px) {
+  		.column {
+   		 width: 100%;
+  			}
+			}
+		.flex-container {
+			
+			display: flex;
+			
+			background-color:#E6CE7D;
+			border: 3px #582C2C solid;
+			
+		
+		}
+		
+			
+		
+			.flex-container>div{
+				
+			align-items:baseline;
+			flex-direction:column;
+			justify-content: center;
+			border: 3px #582C2C solid;
+			background-color:#E4E2B3;
+			font-size:20px;
+			
+			
+		}
+			.makemestack{
+			align-items:baseline;
+			flex-direction:row;
+			justify-content: space-evenly;
+			border: 3px #582C2C solid;
+			background-color:#E4E2B3;
+			font-size:20px;
+			
+		}
+			
+		*{
+			box-sizing: border-box;}
+			
+		#container{
+			width:1020px;
+			margin:0 auto;
+		}
+		
+		.featured{
+			border: 6px #582C2C solid;
+			background-color:#EDCD85;
+			font-size:30px;
+			justify-content: center;
+			align-items: center;
+			display:flex;
+		}
+		
+			
+		
+			
+		
+
+
+		
+		
+		.stack > div {
+			flex-direction: row;
+				border:1px #582C2C solid;
+			
+		
+			
+		}
+		.section_L {
+   		 flex-grow: 2;
+			}
+			
+		.section_R {
+    	flex-grow: 2;
+			}
+		.section_D{
+			flex-grow:2;
+		}
+		
+	
+		
+		body{
+			background-color:#E4E2B3;
+		}
+
+		footer{
+			width:100%;
+			text-align: center;
+		}
+		
+		
+	</style>
+<meta charset="utf-8">
+<title>1draftmama</title>
+	
+	 <link rel="stylesheet" href="jquery-ui.css">
+	
+  	<link rel="stylesheet" href="jquery-ui.theme.css">
+	
+	<link rel="stylesheet"
+		  href="jquery-ui.structure.css">
+	
+  		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  		<script 				src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	
+		<script>
+			$( function() {
+				$( "#accordion" ).accordion();
+				} );
+		</script>
+</head>
+
+<body>
+	
+	<div class="featured"><h1>Meet Mama Our Featured Pet!</h1></div>
+	
+	<div class="flex-container">
+		<div class="makemestack"><img src="images/mamaACS.jpg" alt="picture of Mama the dog in Animal care services"><img src="images/mama.jpeg" alt="picture of Mama the dog After entering her foster home">
+		
+	<h3>Our Featured Pet is a terrier pix mixed name Mama! She was returned to Animal care services twice, Sadly this last return would have been the end of the road for her. Fortunately she was rescued and placed into a foster home. However this is a temporary home and is still looking for a forever home! Mama is very sweet and loving. She would do best in a home with no other pets. She is very energetic and would be great match to someone who loves to go on hikes and trails. Contact Us for more infromation! </h3></div>
+	</div>
+	
+	
+	<div class="featured"><h1>Success Stories</h1></div>
+	<div class="row">
+	
+	
+			<div class="column"><img src="images/bigboyACS.jpeg" alt="picture of big boy the dog in ACS">
+			<img src="images/bigboy.png" alt="pucture of bigboy the dog after being rescued">
+		<h3>Our latest success story comes from a strong willed pup named BigBoy. He was found wondering the street with severe mange and double hip dysplasis. BigBoy had almost given up hope when he was rescued and placed into a forever home. After some time, care, and love he was a brand new pup.</h3>
+		</div>
+	
+	
+	<div class="column"><img src="images/Gabrieloutside.jpg" alt="picture of Gabriel the cat outside">
+		<img src="images/gabrielinside.jpg" alt="Piture of gabriel inside the house">
+		
+	<h3>Not all animals are rescued from the animal shelter or humane society. Gabriel the kitty was found lurking outside a womans house begging for food and a warm home. He found his way into her heart and into her home! He now lives inside and cuddles with his fellow rescued brothers. </h3>
+	</div>
+	
+	<div class="column"><img src="images/chapobed.jpg" alt="Chapo the dog in a doggie bed">
+		<img src="images/chaposmile.jpg" alt="chapo the dog smiling">
+		<h3>This little guy named Chapo was rescued from the side of the road in far west texas. He was found trotting alone and hungry.  </h3>
+	</div>
+	
+	
+	<div class="column"><img src="images/sophiebaby.jpeg" alt="picture of sophie when first rescued">
+			<img src="images/sophie.jpeg" alt="picture of sophie after being rescued">
+			<h3>This cute pup is named Sophie! Her smile never wavered as she waited over 2 years in Odessa humane society for a forever home! She is currently living a care free life and enjoying all the doggie treats.</h3>
+</div>
+		
+	</div>
+		
+	
+	
+	<div id="accordion">
+  <h3>Adoption Agencys Near San Antonio</h3>
+  <div>
+    <p>
+    <a href="https://sahumane.org/">San Antonio Humane Society</a>
+		<br>
+	<a href="https://www.sa.gov/Directory/Departments/ACS">Animal Care Services</a>
+		<br>
+	<a href="https://adltexas.org/">Animal defense league</a>
+    </p>
+  </div>
+  <h3>Adoption Changes Lives</h3>
+  <div>
+    <p>
+    Adoption isn't only for the pets but its also great for thoese looking for companionship.  
+    </p>
+  </div>
+  <h3>Discounts</h3>
+  <div>
+    <p>
+   Some places allow discounted services and pet items 
+    </p>
+    <ul>
+		<li><a href="https://www.chewy.com/b/autoship-save-15682">Chewy</a> has many deals. For example if you sign up for auto ship the first order is 30%. I have also found them to be the most afforadble with free shipping. Check out their website to browse current deals.  </li>
+      <li><a href="https://www.lowcostpetvaccinations.net/vax-clinics-san-antonio/">Low Cost Pet Vax</a> offers affordable vaccinations.</li>
+      <li><a href="https://stores.petsmart.com/us">PetSmart</a> gives out a coupon book when you present your adoption papers at the checkout counter!This booklet has some free goodies that are worth checking out </li>
+    </ul>
+  </div>
+ 
+</div>
+	<h2>Which pet would be best for you?</h2>
+	 <div class="flex-container">
+		 
+    <div class="stack section_L">
+		<div><strong>Cats</strong><br>
+		More independent  <br>
+		Less social</div>
+		
+		</div>
+		 
+	<div class="stack section_D">
+		 <div>Common<br>
+		No matter which animal you pick both animals will need your time and love. </div>
+		 </div>
+		 
+    <div class="stack section_R">
+      <div><strong>Dogs</strong><br>
+     Very social<br>
+		Very Active</div>
+    </div>
+  
+    </div>
+  
+		
+		
+		
+	
+	
+	
+	
+ 
+
+	
+	<footer>
+		<h3>Gabriella Ramirez</h3>
+	</footer>
+	
+</html>
